@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+    <form action="#" method="post">
+    
+    <label for="nama-tugas">Nama Tugas</label>
+    <br>
+    <input type="text" id="nama-tugas" name="nama-tugas" placeholder="Masukkan nama tugas" required>
+    <br> <br>
+
+    <label for="deskripsi-tugas">Deskripsi Tugas</label>
+    <br>
+    <input type="text" id="deskripsi-tugas" deskripsi="deskripsi-tugas" placeholder="Masukkan deskripsi tugas" required>
+    <br> <br>
+
+    <label for="deadline-tugas">Deadline Tugas</label>
+    <br>
+    <input type="text" id="deadline-tugas" deadline="deadline-tugas" placeholder="dd/mm/yyyy" required>
+    <br>
+
+    <button style="background-color:green; color:white" type="submit">Tambahkan</button>
+    <br> <br>
+
+    <h3>Daftar Tugas:</h3>
+
+
+    <style>
+        .box {
+            width: 100x; /* Lebar kotak */
+            height: 100px; /* Tinggi kotak */
+            background-color: white; /* Warna latar belakang */
+            border: 2px solid black; /* Batas kotak */
+            display: flex; /* Menggunakan flexbox */
+            justify-content: flex-start; /* Menyusun teks di tengah horizontal */
+            align-items: flex-start; /* Menyusun teks di tengah vertikal */
+            font-size: 16px; /* Mengatur ukuran font */
+            display: flex;
+            flex-direction: column;
+            line-height: 0px;
+            padding-left: 10px;
+        }
+    </style>
+
+    <div class="box">
+<p> Nama Tugas: Belajar HTML </p>
+<p> Deskripsi: Membuat struktur dasar HTML</p>
+<p> Deadline: 2024-12-15 </p>
+    </div>
+<br>
+    <div class="box">
+<p> Nama Tugas: Belajar CSS </p>
+<p> Deskripsi: Mempelajari selektor dan properti dasra CSS </p>
+<p> Deadline: 2024-12-20 </p>
+    </div>
+    </form>
+</body>
+</html>    
